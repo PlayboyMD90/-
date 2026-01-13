@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `PLAYBOY-MD connected ✅\n\nPREFIX: ${prefix}`;
       await playboy.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/PlayboyMD90/-/blob/main/imagejus/20260112_180822.jpg?raw=true` },
+        image: { url: `https://github.com/PlayboyMD90/-/blob/main/imagejus/20260112_180822.jpg` },
         caption: up
       });
 
